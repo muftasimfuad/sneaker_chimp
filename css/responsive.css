@@ -1,0 +1,226 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.hero_content {
+		margin-left: -87px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .social-icons {
+        padding-right: 192px;
+    }
+    .menu-icon {
+        padding-left: 244px;
+    }
+    .hero_images .monkey {
+        height: 391px;
+        top: 167px;
+        left: 29px;
+        background-size: 441px;
+    }
+    .hero_images .phone {
+        height: 396px;
+        left: 261px;
+    }
+    .hero_content {
+        margin-top: 200px;
+        margin-left: -59px;
+    }
+    .hero_content p {
+        padding-right: 68px;
+    }
+    .hero_content h2 {
+        font-size: 32px;
+    }
+    .footer_bg {
+        bottom: 0;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .header {
+        top: 30px;
+    }
+    .social-icons {
+        padding-right: 105px;
+    }
+    .menu-icon {
+        text-align: center;
+        padding-left: 67px;
+    }
+	.hero_images {
+		position: absolute;
+		left: -139%;
+		top: 9px;
+	}
+    .hero_images .monkey {
+        top: 225px;
+        left: 53px;
+        background-size: 337px;
+    }
+    .hero_images .phone {
+        top: 181px;
+        left: 231px;
+        height: 396px;
+    }
+	.hero_content {
+		margin-top: 279px;
+		margin-left: 0;
+	}
+    .hero_content h2 {
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+    .hero_content p {
+        font-size: 15px;
+        margin-bottom: 21px;
+        line-height: 21px;
+        padding-right: 110px;
+    }
+    .form input {
+        position: relative;
+        z-index: 99999;
+    }
+    .form button {
+        position: relative;
+        z-index: 99999;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header {
+        top: 31px;
+    }
+    .social-icons {
+        padding-right: 57px;
+    }
+    .logo a {
+        font-size: 19.641px;
+    }
+    .menu-icon {
+        padding-left: 125px;
+    }
+	.hero_images {
+		position: absolute;
+		left: -123%;
+		top: 81px;
+	}	
+    .hero_images .monkey {
+        top: 188px;
+        left: 14px;
+        background-size: 285px;
+    }
+    .hero_images .phone {
+        height: 303px;
+        top: 147px;
+        left: 164px;
+    }
+	.hero_content {
+		margin-top: 270px;
+		margin-left: 0;
+	}
+    .hero_content h2 {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+    .hero_content p {
+        font-size: 14px;
+        padding-right: 28px;
+        margin-bottom: 17px;
+        line-height: 20px;
+    }
+    .form input {
+        width: 86%;
+        position: relative;
+        z-index: 99999;
+    }
+    .form button {
+        font-size: 12px;
+        width: 86%;
+        padding: 6px 2px 0 0;
+        margin-top: 10px;
+        position: relative;
+        z-index: 99999;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header {
+        top: 13px;
+    }
+    .social-icons {
+        padding-left: 0;
+        padding-right: 13px;
+    }
+    .social-icons ul li a {
+        margin-right: 0px;
+    }
+    .logo a {
+        font-size: 17.641px;
+    }
+    .menu-icon {
+        padding-left: 61px;
+    }
+	.hero_images {
+		position: absolute;
+		left: -126%;
+		top: 36px;
+	}
+    .hero_images .monkey {
+        top: 169px;
+        left: -3px;
+        background-size: 187px;
+    }
+    .hero_images .phone {
+        height: 168px;
+        top: 158px;
+        left: 95px;
+    }
+	.hero_content {
+		margin-top: 188px;
+		margin-left: -27px;
+	}
+    .hero_content h2 {
+        font-size: 15px;
+        margin-bottom: 8px;
+        padding-right: 17px;
+    }
+    .hero_content p {
+        font-size: 13px;
+        padding-right: 21px;
+        margin-bottom: 13px;
+        line-height: 20px;
+    }
+    .form input {
+        width: 90%;
+        height: 33px;
+        position: relative;
+        z-index: 99999;
+        margin-bottom: 5px;
+    }
+    .form input::-moz-placeholder{
+        font-size: 13px;
+    }
+    .form input::placeholder{
+        font-size: 13px;
+    }
+    .form button {
+        font-size: 10px;
+        font-weight: bold;
+        width: 90%;
+        height: 31px;
+        padding: 0px;
+        position: relative;
+        z-index: 99999;
+    }
+}
+
+
+
